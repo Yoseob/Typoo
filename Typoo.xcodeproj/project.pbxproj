@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2345C0F81B7726DE0097DF38 /* ColorEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2345C0F71B7726DE0097DF38 /* ColorEditViewController.m */; };
+		2345C0FD1B7AB1560097DF38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2345C0FC1B7AB1560097DF38 /* CoreGraphics.framework */; };
+		2345C1011B7AC1180097DF38 /* FontEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2345C1001B7AC1180097DF38 /* FontEditViewController.m */; };
+		2345C1051B7AC50C0097DF38 /* FontTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2345C1041B7AC50C0097DF38 /* FontTableViewCell.m */; };
+		2345C1521B7AD83A0097DF38 /* Amatic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1061B7AD83A0097DF38 /* Amatic.ttf */; };
+		2345C1531B7AD83A0097DF38 /* AnjelikaRose.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1071B7AD83A0097DF38 /* AnjelikaRose.ttf */; };
+		2345C1541B7AD83A0097DF38 /* Aquarion.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1081B7AD83A0097DF38 /* Aquarion.otf */; };
+		2345C1551B7AD83A0097DF38 /* Avantfatlove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1091B7AD83A0097DF38 /* Avantfatlove.ttf */; };
+		2345C1561B7AD83A0097DF38 /* AvantGarde.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C10A1B7AD83A0097DF38 /* AvantGarde.ttf */; };
+		2345C1571B7AD83A0097DF38 /* Avenir.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C10B1B7AD83A0097DF38 /* Avenir.otf */; };
+		2345C1581B7AD83A0097DF38 /* AveriaSerif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C10C1B7AD83A0097DF38 /* AveriaSerif.ttf */; };
+		2345C1591B7AD83A0097DF38 /* Bazar.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C10D1B7AD83A0097DF38 /* Bazar.ttf */; };
+		2345C15A1B7AD83A0097DF38 /* BEBAS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C10E1B7AD83A0097DF38 /* BEBAS.ttf */; };
+		2345C15B1B7AD83A0097DF38 /* Bellerose.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C10F1B7AD83A0097DF38 /* Bellerose.ttf */; };
+		2345C15C1B7AD83A0097DF38 /* Blackout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1101B7AD83A0097DF38 /* Blackout.ttf */; };
+		2345C15D1B7AD83A0097DF38 /* BLANCH_CAPS.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1111B7AD83A0097DF38 /* BLANCH_CAPS.otf */; };
+		2345C15E1B7AD83A0097DF38 /* BPdots.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1121B7AD83A0097DF38 /* BPdots.otf */; };
+		2345C15F1B7AD83A0097DF38 /* BrainFlower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1131B7AD83A0097DF38 /* BrainFlower.ttf */; };
+		2345C1601B7AD83A0097DF38 /* Capture it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1141B7AD83A0097DF38 /* Capture it.ttf */; };
+		2345C1611B7AD83A0097DF38 /* Chunkfive.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1151B7AD83A0097DF38 /* Chunkfive.ttf */; };
+		2345C1621B7AD83A0097DF38 /* Comfortaa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1161B7AD83A0097DF38 /* Comfortaa.ttf */; };
+		2345C1631B7AD83A0097DF38 /* Conviction.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1171B7AD83A0097DF38 /* Conviction.ttf */; };
+		2345C1641B7AD83A0097DF38 /* Designosaur.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1181B7AD83A0097DF38 /* Designosaur.otf */; };
+		2345C1651B7AD83A0097DF38 /* Duke.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1191B7AD83A0097DF38 /* Duke.otf */; };
+		2345C1661B7AD83A0097DF38 /* Fjord.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C11A1B7AD83A0097DF38 /* Fjord.otf */; };
+		2345C1671B7AD83A0097DF38 /* Folksolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C11B1B7AD83A0097DF38 /* Folksolid.ttf */; };
+		2345C1681B7AD83A0097DF38 /* Futura.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 2345C11C1B7AD83A0097DF38 /* Futura.ttc */; };
+		2345C1691B7AD83A0097DF38 /* GearedSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C11D1B7AD83A0097DF38 /* GearedSlab-Bold.ttf */; };
+		2345C16A1B7AD83A0097DF38 /* Geosans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C11E1B7AD83A0097DF38 /* Geosans.ttf */; };
+		2345C16B1B7AD83A0097DF38 /* GeosansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C11F1B7AD83A0097DF38 /* GeosansLight.ttf */; };
+		2345C16C1B7AD83A0097DF38 /* Gotham.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1201B7AD83A0097DF38 /* Gotham.ttf */; };
+		2345C16D1B7AD83A0097DF38 /* Grandesign-Neue-Serif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1211B7AD83A0097DF38 /* Grandesign-Neue-Serif.ttf */; };
+		2345C16E1B7AD83A0097DF38 /* Gretoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1221B7AD83A0097DF38 /* Gretoon.ttf */; };
+		2345C16F1B7AD83A0097DF38 /* Haymaker.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1231B7AD83A0097DF38 /* Haymaker.ttf */; };
+		2345C1701B7AD83A0097DF38 /* Helvetica Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1241B7AD83A0097DF38 /* Helvetica Bold.ttf */; };
+		2345C1711B7AD83A0097DF38 /* Highlands-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1251B7AD83A0097DF38 /* Highlands-Regular.ttf */; };
+		2345C1721B7AD83A0097DF38 /* HomemadeApple.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1261B7AD83A0097DF38 /* HomemadeApple.ttf */; };
+		2345C1731B7AD83A0097DF38 /* Homestead.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1271B7AD83A0097DF38 /* Homestead.ttf */; };
+		2345C1741B7AD83A0097DF38 /* Intro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1281B7AD83A0097DF38 /* Intro.otf */; };
+		2345C1751B7AD83A0097DF38 /* Joyful-Juliana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1291B7AD83A0097DF38 /* Joyful-Juliana.ttf */; };
+		2345C1761B7AD83A0097DF38 /* JUICE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C12A1B7AD83A0097DF38 /* JUICE.ttf */; };
+		2345C1771B7AD83A0097DF38 /* Klavika-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C12B1B7AD83A0097DF38 /* Klavika-Bold.otf */; };
+		2345C1781B7AD83A0097DF38 /* knewave.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C12C1B7AD83A0097DF38 /* knewave.ttf */; };
+		2345C1791B7AD83A0097DF38 /* Knochen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C12D1B7AD83A0097DF38 /* Knochen.ttf */; };
+		2345C17A1B7AD83A0097DF38 /* laurencb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C12E1B7AD83A0097DF38 /* laurencb.ttf */; };
+		2345C17B1B7AD83A0097DF38 /* Liberator.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C12F1B7AD83A0097DF38 /* Liberator.otf */; };
+		2345C17C1B7AD83A0097DF38 /* Light-up-the-World.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1301B7AD83A0097DF38 /* Light-up-the-World.ttf */; };
+		2345C17D1B7AD83A0097DF38 /* LiveSimply.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1311B7AD83A0097DF38 /* LiveSimply.ttf */; };
+		2345C17E1B7AD83A0097DF38 /* Lobster 1.4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1321B7AD83A0097DF38 /* Lobster 1.4.otf */; };
+		2345C17F1B7AD83A0097DF38 /* Magenta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1331B7AD83A0097DF38 /* Magenta.ttf */; };
+		2345C1801B7AD83A0097DF38 /* Market_Deco.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1341B7AD83A0097DF38 /* Market_Deco.ttf */; };
+		2345C1811B7AD83A0097DF38 /* Mate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1351B7AD83A0097DF38 /* Mate.otf */; };
+		2345C1821B7AD83A0097DF38 /* Mathlete-Skinny .otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1361B7AD83A0097DF38 /* Mathlete-Skinny .otf */; };
+		2345C1831B7AD83A0097DF38 /* MavenProLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1371B7AD83A0097DF38 /* MavenProLight.otf */; };
+		2345C1841B7AD83A0097DF38 /* Modern-No.20 in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1381B7AD83A0097DF38 /* Modern-No.20 */; };
+		2345C1851B7AD83A0097DF38 /* Multicolore.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1391B7AD83A0097DF38 /* Multicolore.otf */; };
+		2345C1861B7AD83A0097DF38 /* MuseoSans_500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C13A1B7AD83A0097DF38 /* MuseoSans_500.otf */; };
+		2345C1871B7AD83A0097DF38 /* NeoSansStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C13B1B7AD83A0097DF38 /* NeoSansStd-Bold.otf */; };
+		2345C1881B7AD83A0097DF38 /* NOVASOLID.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C13C1B7AD83A0097DF38 /* NOVASOLID.otf */; };
+		2345C1891B7AD83A0097DF38 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C13D1B7AD83A0097DF38 /* OpenSans-ExtraBold.ttf */; };
+		2345C18A1B7AD83A0097DF38 /* Otama.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C13E1B7AD83A0097DF38 /* Otama.otf */; };
+		2345C18B1B7AD83A0097DF38 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C13F1B7AD83A0097DF38 /* Pacifico.ttf */; };
+		2345C18C1B7AD83A0097DF38 /* Palo_Alto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1401B7AD83A0097DF38 /* Palo_Alto.ttf */; };
+		2345C18D1B7AD83A0097DF38 /* Phosphate.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1411B7AD83A0097DF38 /* Phosphate.ttc */; };
+		2345C18E1B7AD83A0097DF38 /* Pigeon.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1421B7AD83A0097DF38 /* Pigeon.otf */; };
+		2345C18F1B7AD83A0097DF38 /* PrestigeEliteStd-Bd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1431B7AD83A0097DF38 /* PrestigeEliteStd-Bd.otf */; };
+		2345C1901B7AD83A0097DF38 /* Princetown-LET-Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1441B7AD83A0097DF38 /* Princetown-LET-Fonts */; };
+		2345C1911B7AD83A0097DF38 /* ProximaNova.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1451B7AD83A0097DF38 /* ProximaNova.otf */; };
+		2345C1921B7AD83A0097DF38 /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1461B7AD83A0097DF38 /* Quicksand_Dash.otf */; };
+		2345C1931B7AD83A0097DF38 /* Ribbon.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1471B7AD83A0097DF38 /* Ribbon.otf */; };
+		2345C1941B7AD83A0097DF38 /* rockoultraflf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1481B7AD83A0097DF38 /* rockoultraflf.ttf */; };
+		2345C1951B7AD83A0097DF38 /* Rockwell in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1491B7AD83A0097DF38 /* Rockwell */; };
+		2345C1961B7AD83A0097DF38 /* RosewoodStd-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C14A1B7AD83A0097DF38 /* RosewoodStd-Regular.otf */; };
+		2345C1971B7AD83A0097DF38 /* Savoye-LET-Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 2345C14B1B7AD83A0097DF38 /* Savoye-LET-Fonts */; };
+		2345C1991B7AD83A0097DF38 /* Scoolar-tfb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C14D1B7AD83A0097DF38 /* Scoolar-tfb.ttf */; };
+		2345C19A1B7AD83A0097DF38 /* Silverfake.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C14E1B7AD83A0097DF38 /* Silverfake.otf */; };
+		2345C19B1B7AD83A0097DF38 /* Sniglet.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C14F1B7AD83A0097DF38 /* Sniglet.ttf */; };
+		2345C19C1B7AD83A0097DF38 /* Sullivan-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1501B7AD83A0097DF38 /* Sullivan-Regular.otf */; };
+		2345C19D1B7AD83A0097DF38 /* Verdana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C1511B7AD83A0097DF38 /* Verdana.ttf */; };
+		2345C19F1B7ADC0C0097DF38 /* SchoolHouse-PrintedA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2345C19E1B7ADC0C0097DF38 /* SchoolHouse-PrintedA.ttf */; };
+		2394B1941B5A52090087313C /* ButtonContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394B1931B5A52090087313C /* ButtonContainerView.m */; };
+		2394B1981B5B69D50087313C /* EditContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394B1971B5B69D50087313C /* EditContainerView.m */; };
+		23CF95401B176F5E000CF07A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF953F1B176F5E000CF07A /* main.m */; };
+		23CF95431B176F5E000CF07A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF95421B176F5E000CF07A /* AppDelegate.m */; };
+		23CF95491B176F5E000CF07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CF95471B176F5E000CF07A /* Main.storyboard */; };
+		23CF954B1B176F5E000CF07A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CF954A1B176F5E000CF07A /* Images.xcassets */; };
+		23CF954E1B176F5E000CF07A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23CF954C1B176F5E000CF07A /* LaunchScreen.xib */; };
+		23CF955A1B176F5E000CF07A /* TypooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF95591B176F5E000CF07A /* TypooTests.m */; };
+		23CF95C91B1D7AFD000CF07A /* InstaImageSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF95C81B1D7AFD000CF07A /* InstaImageSync.m */; };
+		23CF95CD1B1D7C35000CF07A /* ScrollViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF95CC1B1D7C35000CF07A /* ScrollViewBuilder.m */; };
+		23CF95D31B1DA126000CF07A /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF95D21B1DA126000CF07A /* StartViewController.m */; };
+		23CF95D61B1DA1C2000CF07A /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF95D51B1DA1C2000CF07A /* EditViewController.m */; };
+		23CF95DA1B1FABF0000CF07A /* CustomNaviBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF95D91B1FABF0000CF07A /* CustomNaviBuilder.m */; };
+		23CF95E21B1FD9F0000CF07A /* CustomNaviParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF95E11B1FD9F0000CF07A /* CustomNaviParams.m */; };
+		23CF95E61B1FEEC8000CF07A /* JoyPicTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF95E51B1FEEC8000CF07A /* JoyPicTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23CF95541B176F5E000CF07A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23CF95321B176F5E000CF07A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23CF95391B176F5E000CF07A;
+			remoteInfo = Typoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2345C0F61B7726DE0097DF38 /* ColorEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorEditViewController.h; sourceTree = "<group>"; };
+		2345C0F71B7726DE0097DF38 /* ColorEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorEditViewController.m; sourceTree = "<group>"; };
+		2345C0FC1B7AB1560097DF38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2345C0FF1B7AC1180097DF38 /* FontEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontEditViewController.h; sourceTree = "<group>"; };
+		2345C1001B7AC1180097DF38 /* FontEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontEditViewController.m; sourceTree = "<group>"; };
+		2345C1031B7AC50C0097DF38 /* FontTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontTableViewCell.h; sourceTree = "<group>"; };
+		2345C1041B7AC50C0097DF38 /* FontTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontTableViewCell.m; sourceTree = "<group>"; };
+		2345C1061B7AD83A0097DF38 /* Amatic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amatic.ttf; sourceTree = "<group>"; };
+		2345C1071B7AD83A0097DF38 /* AnjelikaRose.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnjelikaRose.ttf; sourceTree = "<group>"; };
+		2345C1081B7AD83A0097DF38 /* Aquarion.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aquarion.otf; sourceTree = "<group>"; };
+		2345C1091B7AD83A0097DF38 /* Avantfatlove.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avantfatlove.ttf; sourceTree = "<group>"; };
+		2345C10A1B7AD83A0097DF38 /* AvantGarde.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvantGarde.ttf; sourceTree = "<group>"; };
+		2345C10B1B7AD83A0097DF38 /* Avenir.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avenir.otf; sourceTree = "<group>"; };
+		2345C10C1B7AD83A0097DF38 /* AveriaSerif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AveriaSerif.ttf; sourceTree = "<group>"; };
+		2345C10D1B7AD83A0097DF38 /* Bazar.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bazar.ttf; sourceTree = "<group>"; };
+		2345C10E1B7AD83A0097DF38 /* BEBAS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEBAS.ttf; sourceTree = "<group>"; };
+		2345C10F1B7AD83A0097DF38 /* Bellerose.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bellerose.ttf; sourceTree = "<group>"; };
+		2345C1101B7AD83A0097DF38 /* Blackout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blackout.ttf; sourceTree = "<group>"; };
+		2345C1111B7AD83A0097DF38 /* BLANCH_CAPS.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BLANCH_CAPS.otf; sourceTree = "<group>"; };
+		2345C1121B7AD83A0097DF38 /* BPdots.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BPdots.otf; sourceTree = "<group>"; };
+		2345C1131B7AD83A0097DF38 /* BrainFlower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrainFlower.ttf; sourceTree = "<group>"; };
+		2345C1141B7AD83A0097DF38 /* Capture it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Capture it.ttf"; sourceTree = "<group>"; };
+		2345C1151B7AD83A0097DF38 /* Chunkfive.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chunkfive.ttf; sourceTree = "<group>"; };
+		2345C1161B7AD83A0097DF38 /* Comfortaa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comfortaa.ttf; sourceTree = "<group>"; };
+		2345C1171B7AD83A0097DF38 /* Conviction.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Conviction.ttf; sourceTree = "<group>"; };
+		2345C1181B7AD83A0097DF38 /* Designosaur.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Designosaur.otf; sourceTree = "<group>"; };
+		2345C1191B7AD83A0097DF38 /* Duke.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Duke.otf; sourceTree = "<group>"; };
+		2345C11A1B7AD83A0097DF38 /* Fjord.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fjord.otf; sourceTree = "<group>"; };
+		2345C11B1B7AD83A0097DF38 /* Folksolid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Folksolid.ttf; sourceTree = "<group>"; };
+		2345C11C1B7AD83A0097DF38 /* Futura.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Futura.ttc; sourceTree = "<group>"; };
+		2345C11D1B7AD83A0097DF38 /* GearedSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GearedSlab-Bold.ttf"; sourceTree = "<group>"; };
+		2345C11E1B7AD83A0097DF38 /* Geosans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Geosans.ttf; sourceTree = "<group>"; };
+		2345C11F1B7AD83A0097DF38 /* GeosansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeosansLight.ttf; sourceTree = "<group>"; };
+		2345C1201B7AD83A0097DF38 /* Gotham.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gotham.ttf; sourceTree = "<group>"; };
+		2345C1211B7AD83A0097DF38 /* Grandesign-Neue-Serif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Grandesign-Neue-Serif.ttf"; sourceTree = "<group>"; };
+		2345C1221B7AD83A0097DF38 /* Gretoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gretoon.ttf; sourceTree = "<group>"; };
+		2345C1231B7AD83A0097DF38 /* Haymaker.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Haymaker.ttf; sourceTree = "<group>"; };
+		2345C1241B7AD83A0097DF38 /* Helvetica Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica Bold.ttf"; sourceTree = "<group>"; };
+		2345C1251B7AD83A0097DF38 /* Highlands-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Highlands-Regular.ttf"; sourceTree = "<group>"; };
+		2345C1261B7AD83A0097DF38 /* HomemadeApple.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomemadeApple.ttf; sourceTree = "<group>"; };
+		2345C1271B7AD83A0097DF38 /* Homestead.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Homestead.ttf; sourceTree = "<group>"; };
+		2345C1281B7AD83A0097DF38 /* Intro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Intro.otf; sourceTree = "<group>"; };
+		2345C1291B7AD83A0097DF38 /* Joyful-Juliana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Joyful-Juliana.ttf"; sourceTree = "<group>"; };
+		2345C12A1B7AD83A0097DF38 /* JUICE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JUICE.ttf; sourceTree = "<group>"; };
+		2345C12B1B7AD83A0097DF38 /* Klavika-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Klavika-Bold.otf"; sourceTree = "<group>"; };
+		2345C12C1B7AD83A0097DF38 /* knewave.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = knewave.ttf; sourceTree = "<group>"; };
+		2345C12D1B7AD83A0097DF38 /* Knochen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Knochen.ttf; sourceTree = "<group>"; };
+		2345C12E1B7AD83A0097DF38 /* laurencb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laurencb.ttf; sourceTree = "<group>"; };
+		2345C12F1B7AD83A0097DF38 /* Liberator.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Liberator.otf; sourceTree = "<group>"; };
+		2345C1301B7AD83A0097DF38 /* Light-up-the-World.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Light-up-the-World.ttf"; sourceTree = "<group>"; };
+		2345C1311B7AD83A0097DF38 /* LiveSimply.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LiveSimply.ttf; sourceTree = "<group>"; };
+		2345C1321B7AD83A0097DF38 /* Lobster 1.4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster 1.4.otf"; sourceTree = "<group>"; };
+		2345C1331B7AD83A0097DF38 /* Magenta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Magenta.ttf; sourceTree = "<group>"; };
+		2345C1341B7AD83A0097DF38 /* Market_Deco.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Market_Deco.ttf; sourceTree = "<group>"; };
+		2345C1351B7AD83A0097DF38 /* Mate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mate.otf; sourceTree = "<group>"; };
+		2345C1361B7AD83A0097DF38 /* Mathlete-Skinny .otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mathlete-Skinny .otf"; sourceTree = "<group>"; };
+		2345C1371B7AD83A0097DF38 /* MavenProLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MavenProLight.otf; sourceTree = "<group>"; };
+		2345C1381B7AD83A0097DF38 /* Modern-No.20 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Modern-No.20"; sourceTree = "<group>"; };
+		2345C1391B7AD83A0097DF38 /* Multicolore.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Multicolore.otf; sourceTree = "<group>"; };
+		2345C13A1B7AD83A0097DF38 /* MuseoSans_500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_500.otf; sourceTree = "<group>"; };
+		2345C13B1B7AD83A0097DF38 /* NeoSansStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeoSansStd-Bold.otf"; sourceTree = "<group>"; };
+		2345C13C1B7AD83A0097DF38 /* NOVASOLID.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NOVASOLID.otf; sourceTree = "<group>"; };
+		2345C13D1B7AD83A0097DF38 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2345C13E1B7AD83A0097DF38 /* Otama.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Otama.otf; sourceTree = "<group>"; };
+		2345C13F1B7AD83A0097DF38 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		2345C1401B7AD83A0097DF38 /* Palo_Alto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Palo_Alto.ttf; sourceTree = "<group>"; };
+		2345C1411B7AD83A0097DF38 /* Phosphate.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Phosphate.ttc; sourceTree = "<group>"; };
+		2345C1421B7AD83A0097DF38 /* Pigeon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pigeon.otf; sourceTree = "<group>"; };
+		2345C1431B7AD83A0097DF38 /* PrestigeEliteStd-Bd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PrestigeEliteStd-Bd.otf"; sourceTree = "<group>"; };
+		2345C1441B7AD83A0097DF38 /* Princetown-LET-Fonts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Princetown-LET-Fonts"; sourceTree = "<group>"; };
+		2345C1451B7AD83A0097DF38 /* ProximaNova.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNova.otf; sourceTree = "<group>"; };
+		2345C1461B7AD83A0097DF38 /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Dash.otf; sourceTree = "<group>"; };
+		2345C1471B7AD83A0097DF38 /* Ribbon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ribbon.otf; sourceTree = "<group>"; };
+		2345C1481B7AD83A0097DF38 /* rockoultraflf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rockoultraflf.ttf; sourceTree = "<group>"; };
+		2345C1491B7AD83A0097DF38 /* Rockwell */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rockwell; sourceTree = "<group>"; };
+		2345C14A1B7AD83A0097DF38 /* RosewoodStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RosewoodStd-Regular.otf"; sourceTree = "<group>"; };
+		2345C14B1B7AD83A0097DF38 /* Savoye-LET-Fonts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Savoye-LET-Fonts"; sourceTree = "<group>"; };
+		2345C14D1B7AD83A0097DF38 /* Scoolar-tfb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scoolar-tfb.ttf"; sourceTree = "<group>"; };
+		2345C14E1B7AD83A0097DF38 /* Silverfake.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silverfake.otf; sourceTree = "<group>"; };
+		2345C14F1B7AD83A0097DF38 /* Sniglet.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sniglet.ttf; sourceTree = "<group>"; };
+		2345C1501B7AD83A0097DF38 /* Sullivan-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sullivan-Regular.otf"; sourceTree = "<group>"; };
+		2345C1511B7AD83A0097DF38 /* Verdana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Verdana.ttf; sourceTree = "<group>"; };
+		2345C19E1B7ADC0C0097DF38 /* SchoolHouse-PrintedA.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SchoolHouse-PrintedA.ttf"; sourceTree = "<group>"; };
+		2394B1921B5A52090087313C /* ButtonContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonContainerView.h; sourceTree = "<group>"; };
+		2394B1931B5A52090087313C /* ButtonContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonContainerView.m; sourceTree = "<group>"; };
+		2394B1961B5B69D50087313C /* EditContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditContainerView.h; sourceTree = "<group>"; };
+		2394B1971B5B69D50087313C /* EditContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditContainerView.m; sourceTree = "<group>"; };
+		23CF953A1B176F5E000CF07A /* Typoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Typoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CF953E1B176F5E000CF07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23CF953F1B176F5E000CF07A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23CF95411B176F5E000CF07A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23CF95421B176F5E000CF07A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23CF95481B176F5E000CF07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23CF954A1B176F5E000CF07A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23CF954D1B176F5E000CF07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		23CF95531B176F5E000CF07A /* TypooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CF95581B176F5E000CF07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23CF95591B176F5E000CF07A /* TypooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypooTests.m; sourceTree = "<group>"; };
+		23CF95C71B1D7AFD000CF07A /* InstaImageSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaImageSync.h; sourceTree = "<group>"; };
+		23CF95C81B1D7AFD000CF07A /* InstaImageSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaImageSync.m; sourceTree = "<group>"; };
+		23CF95CB1B1D7C35000CF07A /* ScrollViewBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewBuilder.h; sourceTree = "<group>"; };
+		23CF95CC1B1D7C35000CF07A /* ScrollViewBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewBuilder.m; sourceTree = "<group>"; };
+		23CF95D11B1DA126000CF07A /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		23CF95D21B1DA126000CF07A /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		23CF95D41B1DA1C2000CF07A /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		23CF95D51B1DA1C2000CF07A /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		23CF95D81B1FABF0000CF07A /* CustomNaviBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBuilder.h; sourceTree = "<group>"; };
+		23CF95D91B1FABF0000CF07A /* CustomNaviBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNaviBuilder.m; sourceTree = "<group>"; };
+		23CF95E01B1FD9F0000CF07A /* CustomNaviParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviParams.h; sourceTree = "<group>"; };
+		23CF95E11B1FD9F0000CF07A /* CustomNaviParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNaviParams.m; sourceTree = "<group>"; };
+		23CF95E41B1FEEC8000CF07A /* JoyPicTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyPicTextView.h; sourceTree = "<group>"; };
+		23CF95E51B1FEEC8000CF07A /* JoyPicTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyPicTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23CF95371B176F5E000CF07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345C0FD1B7AB1560097DF38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CF95501B176F5E000CF07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2345C0F51B7726CF0097DF38 /* ColorEditViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2345C0F61B7726DE0097DF38 /* ColorEditViewController.h */,
+				2345C0F71B7726DE0097DF38 /* ColorEditViewController.m */,
+			);
+			name = ColorEditViewController;
+			path = ../ColorEditViewController;
+			sourceTree = "<group>";
+		};
+		2345C0FE1B7AC0FF0097DF38 /* FontScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2345C1021B7AC4F80097DF38 /* FontTableViewCell */,
+				2345C0FF1B7AC1180097DF38 /* FontEditViewController.h */,
+				2345C1001B7AC1180097DF38 /* FontEditViewController.m */,
+			);
+			path = FontScrollViewController;
+			sourceTree = "<group>";
+		};
+		2345C1021B7AC4F80097DF38 /* FontTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2345C1031B7AC50C0097DF38 /* FontTableViewCell.h */,
+				2345C1041B7AC50C0097DF38 /* FontTableViewCell.m */,
+			);
+			path = FontTableViewCell;
+			sourceTree = "<group>";
+		};
+		2394B1911B5A52090087313C /* ButtonContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				2394B1921B5A52090087313C /* ButtonContainerView.h */,
+				2394B1931B5A52090087313C /* ButtonContainerView.m */,
+			);
+			path = ButtonContainerView;
+			sourceTree = "<group>";
+		};
+		2394B1951B5B69B90087313C /* EditContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				2394B1961B5B69D50087313C /* EditContainerView.h */,
+				2394B1971B5B69D50087313C /* EditContainerView.m */,
+			);
+			path = EditContainerView;
+			sourceTree = "<group>";
+		};
+		23CF95311B176F5E000CF07A = {
+			isa = PBXGroup;
+			children = (
+				2345C0FC1B7AB1560097DF38 /* CoreGraphics.framework */,
+				23CF953C1B176F5E000CF07A /* Typoo */,
+				23CF95561B176F5E000CF07A /* TypooTests */,
+				23CF953B1B176F5E000CF07A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23CF953B1B176F5E000CF07A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23CF953A1B176F5E000CF07A /* Typoo.app */,
+				23CF95531B176F5E000CF07A /* TypooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23CF953C1B176F5E000CF07A /* Typoo */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95CE1B1DA126000CF07A /* ViewController */,
+				23CF95E31B1FEE9E000CF07A /* Resource */,
+				23CF95C51B1D7AEA000CF07A /* Model */,
+				23CF95411B176F5E000CF07A /* AppDelegate.h */,
+				23CF95421B176F5E000CF07A /* AppDelegate.m */,
+				23CF95471B176F5E000CF07A /* Main.storyboard */,
+				23CF954A1B176F5E000CF07A /* Images.xcassets */,
+				23CF954C1B176F5E000CF07A /* LaunchScreen.xib */,
+				23CF953D1B176F5E000CF07A /* Supporting Files */,
+			);
+			path = Typoo;
+			sourceTree = "<group>";
+		};
+		23CF953D1B176F5E000CF07A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2345C1061B7AD83A0097DF38 /* Amatic.ttf */,
+				2345C1071B7AD83A0097DF38 /* AnjelikaRose.ttf */,
+				2345C1081B7AD83A0097DF38 /* Aquarion.otf */,
+				2345C1091B7AD83A0097DF38 /* Avantfatlove.ttf */,
+				2345C10A1B7AD83A0097DF38 /* AvantGarde.ttf */,
+				2345C10B1B7AD83A0097DF38 /* Avenir.otf */,
+				2345C10C1B7AD83A0097DF38 /* AveriaSerif.ttf */,
+				2345C10D1B7AD83A0097DF38 /* Bazar.ttf */,
+				2345C10E1B7AD83A0097DF38 /* BEBAS.ttf */,
+				2345C10F1B7AD83A0097DF38 /* Bellerose.ttf */,
+				2345C1101B7AD83A0097DF38 /* Blackout.ttf */,
+				2345C1111B7AD83A0097DF38 /* BLANCH_CAPS.otf */,
+				2345C1121B7AD83A0097DF38 /* BPdots.otf */,
+				2345C1131B7AD83A0097DF38 /* BrainFlower.ttf */,
+				2345C1141B7AD83A0097DF38 /* Capture it.ttf */,
+				2345C1151B7AD83A0097DF38 /* Chunkfive.ttf */,
+				2345C1161B7AD83A0097DF38 /* Comfortaa.ttf */,
+				2345C1171B7AD83A0097DF38 /* Conviction.ttf */,
+				2345C1181B7AD83A0097DF38 /* Designosaur.otf */,
+				2345C1191B7AD83A0097DF38 /* Duke.otf */,
+				2345C11A1B7AD83A0097DF38 /* Fjord.otf */,
+				2345C11B1B7AD83A0097DF38 /* Folksolid.ttf */,
+				2345C11C1B7AD83A0097DF38 /* Futura.ttc */,
+				2345C11D1B7AD83A0097DF38 /* GearedSlab-Bold.ttf */,
+				2345C11E1B7AD83A0097DF38 /* Geosans.ttf */,
+				2345C11F1B7AD83A0097DF38 /* GeosansLight.ttf */,
+				2345C1201B7AD83A0097DF38 /* Gotham.ttf */,
+				2345C1211B7AD83A0097DF38 /* Grandesign-Neue-Serif.ttf */,
+				2345C1221B7AD83A0097DF38 /* Gretoon.ttf */,
+				2345C1231B7AD83A0097DF38 /* Haymaker.ttf */,
+				2345C1241B7AD83A0097DF38 /* Helvetica Bold.ttf */,
+				2345C1251B7AD83A0097DF38 /* Highlands-Regular.ttf */,
+				2345C1261B7AD83A0097DF38 /* HomemadeApple.ttf */,
+				2345C1271B7AD83A0097DF38 /* Homestead.ttf */,
+				2345C1281B7AD83A0097DF38 /* Intro.otf */,
+				2345C1291B7AD83A0097DF38 /* Joyful-Juliana.ttf */,
+				2345C12A1B7AD83A0097DF38 /* JUICE.ttf */,
+				2345C12B1B7AD83A0097DF38 /* Klavika-Bold.otf */,
+				2345C12C1B7AD83A0097DF38 /* knewave.ttf */,
+				2345C12D1B7AD83A0097DF38 /* Knochen.ttf */,
+				2345C12E1B7AD83A0097DF38 /* laurencb.ttf */,
+				2345C12F1B7AD83A0097DF38 /* Liberator.otf */,
+				2345C1301B7AD83A0097DF38 /* Light-up-the-World.ttf */,
+				2345C1311B7AD83A0097DF38 /* LiveSimply.ttf */,
+				2345C1321B7AD83A0097DF38 /* Lobster 1.4.otf */,
+				2345C1331B7AD83A0097DF38 /* Magenta.ttf */,
+				2345C1341B7AD83A0097DF38 /* Market_Deco.ttf */,
+				2345C1351B7AD83A0097DF38 /* Mate.otf */,
+				2345C1361B7AD83A0097DF38 /* Mathlete-Skinny .otf */,
+				2345C1371B7AD83A0097DF38 /* MavenProLight.otf */,
+				2345C1381B7AD83A0097DF38 /* Modern-No.20 */,
+				2345C1391B7AD83A0097DF38 /* Multicolore.otf */,
+				2345C13A1B7AD83A0097DF38 /* MuseoSans_500.otf */,
+				2345C13B1B7AD83A0097DF38 /* NeoSansStd-Bold.otf */,
+				2345C13C1B7AD83A0097DF38 /* NOVASOLID.otf */,
+				2345C13D1B7AD83A0097DF38 /* OpenSans-ExtraBold.ttf */,
+				2345C13E1B7AD83A0097DF38 /* Otama.otf */,
+				2345C13F1B7AD83A0097DF38 /* Pacifico.ttf */,
+				2345C1401B7AD83A0097DF38 /* Palo_Alto.ttf */,
+				2345C1411B7AD83A0097DF38 /* Phosphate.ttc */,
+				2345C1421B7AD83A0097DF38 /* Pigeon.otf */,
+				2345C1431B7AD83A0097DF38 /* PrestigeEliteStd-Bd.otf */,
+				2345C1441B7AD83A0097DF38 /* Princetown-LET-Fonts */,
+				2345C1451B7AD83A0097DF38 /* ProximaNova.otf */,
+				2345C1461B7AD83A0097DF38 /* Quicksand_Dash.otf */,
+				2345C1471B7AD83A0097DF38 /* Ribbon.otf */,
+				2345C1481B7AD83A0097DF38 /* rockoultraflf.ttf */,
+				2345C1491B7AD83A0097DF38 /* Rockwell */,
+				2345C14A1B7AD83A0097DF38 /* RosewoodStd-Regular.otf */,
+				2345C19E1B7ADC0C0097DF38 /* SchoolHouse-PrintedA.ttf */,
+				2345C14B1B7AD83A0097DF38 /* Savoye-LET-Fonts */,
+				2345C14D1B7AD83A0097DF38 /* Scoolar-tfb.ttf */,
+				2345C14E1B7AD83A0097DF38 /* Silverfake.otf */,
+				2345C14F1B7AD83A0097DF38 /* Sniglet.ttf */,
+				2345C1501B7AD83A0097DF38 /* Sullivan-Regular.otf */,
+				2345C1511B7AD83A0097DF38 /* Verdana.ttf */,
+				23CF953E1B176F5E000CF07A /* Info.plist */,
+				23CF953F1B176F5E000CF07A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23CF95561B176F5E000CF07A /* TypooTests */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95591B176F5E000CF07A /* TypooTests.m */,
+				23CF95571B176F5E000CF07A /* Supporting Files */,
+			);
+			path = TypooTests;
+			sourceTree = "<group>";
+		};
+		23CF95571B176F5E000CF07A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95581B176F5E000CF07A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23CF95C51B1D7AEA000CF07A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95D71B1FAB94000CF07A /* CustomNaviBuilder */,
+				23CF95CA1B1D7C26000CF07A /* ScrollViewBuilder */,
+				23CF95C61B1D7AEA000CF07A /* InstaImageSync */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23CF95C61B1D7AEA000CF07A /* InstaImageSync */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95C71B1D7AFD000CF07A /* InstaImageSync.h */,
+				23CF95C81B1D7AFD000CF07A /* InstaImageSync.m */,
+			);
+			path = InstaImageSync;
+			sourceTree = "<group>";
+		};
+		23CF95CA1B1D7C26000CF07A /* ScrollViewBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95CB1B1D7C35000CF07A /* ScrollViewBuilder.h */,
+				23CF95CC1B1D7C35000CF07A /* ScrollViewBuilder.m */,
+			);
+			path = ScrollViewBuilder;
+			sourceTree = "<group>";
+		};
+		23CF95CE1B1DA126000CF07A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95CF1B1DA126000CF07A /* EditViewController */,
+				23CF95D01B1DA126000CF07A /* StartViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		23CF95CF1B1DA126000CF07A /* EditViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2345C0FE1B7AC0FF0097DF38 /* FontScrollViewController */,
+				2345C0F51B7726CF0097DF38 /* ColorEditViewController */,
+				23CF95D41B1DA1C2000CF07A /* EditViewController.h */,
+				23CF95D51B1DA1C2000CF07A /* EditViewController.m */,
+			);
+			path = EditViewController;
+			sourceTree = "<group>";
+		};
+		23CF95D01B1DA126000CF07A /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95D11B1DA126000CF07A /* StartViewController.h */,
+				23CF95D21B1DA126000CF07A /* StartViewController.m */,
+			);
+			path = StartViewController;
+			sourceTree = "<group>";
+		};
+		23CF95D71B1FAB94000CF07A /* CustomNaviBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95DF1B1FD9F0000CF07A /*  CustomNaviParams */,
+				23CF95D81B1FABF0000CF07A /* CustomNaviBuilder.h */,
+				23CF95D91B1FABF0000CF07A /* CustomNaviBuilder.m */,
+			);
+			path = CustomNaviBuilder;
+			sourceTree = "<group>";
+		};
+		23CF95DF1B1FD9F0000CF07A /*  CustomNaviParams */ = {
+			isa = PBXGroup;
+			children = (
+				23CF95E01B1FD9F0000CF07A /* CustomNaviParams.h */,
+				23CF95E11B1FD9F0000CF07A /* CustomNaviParams.m */,
+			);
+			path = " CustomNaviParams";
+			sourceTree = "<group>";
+		};
+		23CF95E31B1FEE9E000CF07A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2394B1951B5B69B90087313C /* EditContainerView */,
+				2394B1911B5A52090087313C /* ButtonContainerView */,
+				23CF95E41B1FEEC8000CF07A /* JoyPicTextView.h */,
+				23CF95E51B1FEEC8000CF07A /* JoyPicTextView.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23CF95391B176F5E000CF07A /* Typoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CF955D1B176F5E000CF07A /* Build configuration list for PBXNativeTarget "Typoo" */;
+			buildPhases = (
+				23CF95361B176F5E000CF07A /* Sources */,
+				23CF95371B176F5E000CF07A /* Frameworks */,
+				23CF95381B176F5E000CF07A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Typoo;
+			productName = Typoo;
+			productReference = 23CF953A1B176F5E000CF07A /* Typoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23CF95521B176F5E000CF07A /* TypooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CF95601B176F5E000CF07A /* Build configuration list for PBXNativeTarget "TypooTests" */;
+			buildPhases = (
+				23CF954F1B176F5E000CF07A /* Sources */,
+				23CF95501B176F5E000CF07A /* Frameworks */,
+				23CF95511B176F5E000CF07A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23CF95551B176F5E000CF07A /* PBXTargetDependency */,
+			);
+			name = TypooTests;
+			productName = TypooTests;
+			productReference = 23CF95531B176F5E000CF07A /* TypooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23CF95321B176F5E000CF07A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LeeYoseob;
+				TargetAttributes = {
+					23CF95391B176F5E000CF07A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					23CF95521B176F5E000CF07A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 23CF95391B176F5E000CF07A;
+					};
+				};
+			};
+			buildConfigurationList = 23CF95351B176F5E000CF07A /* Build configuration list for PBXProject "Typoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23CF95311B176F5E000CF07A;
+			productRefGroup = 23CF953B1B176F5E000CF07A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23CF95391B176F5E000CF07A /* Typoo */,
+				23CF95521B176F5E000CF07A /* TypooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23CF95381B176F5E000CF07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345C1581B7AD83A0097DF38 /* AveriaSerif.ttf in Resources */,
+				2345C15C1B7AD83A0097DF38 /* Blackout.ttf in Resources */,
+				2345C1961B7AD83A0097DF38 /* RosewoodStd-Regular.otf in Resources */,
+				2345C1861B7AD83A0097DF38 /* MuseoSans_500.otf in Resources */,
+				2345C1921B7AD83A0097DF38 /* Quicksand_Dash.otf in Resources */,
+				2345C1741B7AD83A0097DF38 /* Intro.otf in Resources */,
+				23CF95491B176F5E000CF07A /* Main.storyboard in Resources */,
+				2345C1931B7AD83A0097DF38 /* Ribbon.otf in Resources */,
+				2345C17E1B7AD83A0097DF38 /* Lobster 1.4.otf in Resources */,
+				2345C1991B7AD83A0097DF38 /* Scoolar-tfb.ttf in Resources */,
+				2345C15A1B7AD83A0097DF38 /* BEBAS.ttf in Resources */,
+				2345C15D1B7AD83A0097DF38 /* BLANCH_CAPS.otf in Resources */,
+				2345C16E1B7AD83A0097DF38 /* Gretoon.ttf in Resources */,
+				2345C1711B7AD83A0097DF38 /* Highlands-Regular.ttf in Resources */,
+				2345C1871B7AD83A0097DF38 /* NeoSansStd-Bold.otf in Resources */,
+				2345C17A1B7AD83A0097DF38 /* laurencb.ttf in Resources */,
+				2345C19C1B7AD83A0097DF38 /* Sullivan-Regular.otf in Resources */,
+				2345C1611B7AD83A0097DF38 /* Chunkfive.ttf in Resources */,
+				2345C16C1B7AD83A0097DF38 /* Gotham.ttf in Resources */,
+				2345C16D1B7AD83A0097DF38 /* Grandesign-Neue-Serif.ttf in Resources */,
+				2345C1671B7AD83A0097DF38 /* Folksolid.ttf in Resources */,
+				2345C15F1B7AD83A0097DF38 /* BrainFlower.ttf in Resources */,
+				2345C1521B7AD83A0097DF38 /* Amatic.ttf in Resources */,
+				2345C1821B7AD83A0097DF38 /* Mathlete-Skinny .otf in Resources */,
+				2345C18B1B7AD83A0097DF38 /* Pacifico.ttf in Resources */,
+				2345C19B1B7AD83A0097DF38 /* Sniglet.ttf in Resources */,
+				2345C18D1B7AD83A0097DF38 /* Phosphate.ttc in Resources */,
+				2345C1781B7AD83A0097DF38 /* knewave.ttf in Resources */,
+				2345C1731B7AD83A0097DF38 /* Homestead.ttf in Resources */,
+				2345C18C1B7AD83A0097DF38 /* Palo_Alto.ttf in Resources */,
+				2345C17C1B7AD83A0097DF38 /* Light-up-the-World.ttf in Resources */,
+				23CF954E1B176F5E000CF07A /* LaunchScreen.xib in Resources */,
+				2345C1621B7AD83A0097DF38 /* Comfortaa.ttf in Resources */,
+				2345C1541B7AD83A0097DF38 /* Aquarion.otf in Resources */,
+				2345C19F1B7ADC0C0097DF38 /* SchoolHouse-PrintedA.ttf in Resources */,
+				23CF954B1B176F5E000CF07A /* Images.xcassets in Resources */,
+				2345C18A1B7AD83A0097DF38 /* Otama.otf in Resources */,
+				2345C1951B7AD83A0097DF38 /* Rockwell in Resources */,
+				2345C1911B7AD83A0097DF38 /* ProximaNova.otf in Resources */,
+				2345C16F1B7AD83A0097DF38 /* Haymaker.ttf in Resources */,
+				2345C17F1B7AD83A0097DF38 /* Magenta.ttf in Resources */,
+				2345C15B1B7AD83A0097DF38 /* Bellerose.ttf in Resources */,
+				2345C1721B7AD83A0097DF38 /* HomemadeApple.ttf in Resources */,
+				2345C1801B7AD83A0097DF38 /* Market_Deco.ttf in Resources */,
+				2345C18E1B7AD83A0097DF38 /* Pigeon.otf in Resources */,
+				2345C1941B7AD83A0097DF38 /* rockoultraflf.ttf in Resources */,
+				2345C1661B7AD83A0097DF38 /* Fjord.otf in Resources */,
+				2345C16A1B7AD83A0097DF38 /* Geosans.ttf in Resources */,
+				2345C16B1B7AD83A0097DF38 /* GeosansLight.ttf in Resources */,
+				2345C1531B7AD83A0097DF38 /* AnjelikaRose.ttf in Resources */,
+				2345C17B1B7AD83A0097DF38 /* Liberator.otf in Resources */,
+				2345C1591B7AD83A0097DF38 /* Bazar.ttf in Resources */,
+				2345C1551B7AD83A0097DF38 /* Avantfatlove.ttf in Resources */,
+				2345C1751B7AD83A0097DF38 /* Joyful-Juliana.ttf in Resources */,
+				2345C1761B7AD83A0097DF38 /* JUICE.ttf in Resources */,
+				2345C1681B7AD83A0097DF38 /* Futura.ttc in Resources */,
+				2345C18F1B7AD83A0097DF38 /* PrestigeEliteStd-Bd.otf in Resources */,
+				2345C1691B7AD83A0097DF38 /* GearedSlab-Bold.ttf in Resources */,
+				2345C17D1B7AD83A0097DF38 /* LiveSimply.ttf in Resources */,
+				2345C19A1B7AD83A0097DF38 /* Silverfake.otf in Resources */,
+				2345C1851B7AD83A0097DF38 /* Multicolore.otf in Resources */,
+				2345C1771B7AD83A0097DF38 /* Klavika-Bold.otf in Resources */,
+				2345C19D1B7AD83A0097DF38 /* Verdana.ttf in Resources */,
+				2345C15E1B7AD83A0097DF38 /* BPdots.otf in Resources */,
+				2345C1901B7AD83A0097DF38 /* Princetown-LET-Fonts in Resources */,
+				2345C1971B7AD83A0097DF38 /* Savoye-LET-Fonts in Resources */,
+				2345C1601B7AD83A0097DF38 /* Capture it.ttf in Resources */,
+				2345C1701B7AD83A0097DF38 /* Helvetica Bold.ttf in Resources */,
+				2345C1891B7AD83A0097DF38 /* OpenSans-ExtraBold.ttf in Resources */,
+				2345C1841B7AD83A0097DF38 /* Modern-No.20 in Resources */,
+				2345C1641B7AD83A0097DF38 /* Designosaur.otf in Resources */,
+				2345C1791B7AD83A0097DF38 /* Knochen.ttf in Resources */,
+				2345C1881B7AD83A0097DF38 /* NOVASOLID.otf in Resources */,
+				2345C1651B7AD83A0097DF38 /* Duke.otf in Resources */,
+				2345C1831B7AD83A0097DF38 /* MavenProLight.otf in Resources */,
+				2345C1571B7AD83A0097DF38 /* Avenir.otf in Resources */,
+				2345C1561B7AD83A0097DF38 /* AvantGarde.ttf in Resources */,
+				2345C1631B7AD83A0097DF38 /* Conviction.ttf in Resources */,
+				2345C1811B7AD83A0097DF38 /* Mate.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CF95511B176F5E000CF07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23CF95361B176F5E000CF07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345C1051B7AC50C0097DF38 /* FontTableViewCell.m in Sources */,
+				2394B1981B5B69D50087313C /* EditContainerView.m in Sources */,
+				23CF95431B176F5E000CF07A /* AppDelegate.m in Sources */,
+				23CF95DA1B1FABF0000CF07A /* CustomNaviBuilder.m in Sources */,
+				2394B1941B5A52090087313C /* ButtonContainerView.m in Sources */,
+				2345C0F81B7726DE0097DF38 /* ColorEditViewController.m in Sources */,
+				23CF95E21B1FD9F0000CF07A /* CustomNaviParams.m in Sources */,
+				23CF95C91B1D7AFD000CF07A /* InstaImageSync.m in Sources */,
+				2345C1011B7AC1180097DF38 /* FontEditViewController.m in Sources */,
+				23CF95D31B1DA126000CF07A /* StartViewController.m in Sources */,
+				23CF95401B176F5E000CF07A /* main.m in Sources */,
+				23CF95D61B1DA1C2000CF07A /* EditViewController.m in Sources */,
+				23CF95E61B1FEEC8000CF07A /* JoyPicTextView.m in Sources */,
+				23CF95CD1B1D7C35000CF07A /* ScrollViewBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CF954F1B176F5E000CF07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CF955A1B176F5E000CF07A /* TypooTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23CF95551B176F5E000CF07A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23CF95391B176F5E000CF07A /* Typoo */;
+			targetProxy = 23CF95541B176F5E000CF07A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23CF95471B176F5E000CF07A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CF95481B176F5E000CF07A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23CF954C1B176F5E000CF07A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CF954D1B176F5E000CF07A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23CF955B1B176F5E000CF07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23CF955C1B176F5E000CF07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23CF955E1B176F5E000CF07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Typoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23CF955F1B176F5E000CF07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Typoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23CF95611B176F5E000CF07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TypooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typoo.app/Typoo";
+			};
+			name = Debug;
+		};
+		23CF95621B176F5E000CF07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TypooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typoo.app/Typoo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23CF95351B176F5E000CF07A /* Build configuration list for PBXProject "Typoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CF955B1B176F5E000CF07A /* Debug */,
+				23CF955C1B176F5E000CF07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23CF955D1B176F5E000CF07A /* Build configuration list for PBXNativeTarget "Typoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CF955E1B176F5E000CF07A /* Debug */,
+				23CF955F1B176F5E000CF07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23CF95601B176F5E000CF07A /* Build configuration list for PBXNativeTarget "TypooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CF95611B176F5E000CF07A /* Debug */,
+				23CF95621B176F5E000CF07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23CF95321B176F5E000CF07A /* Project object */;
+}
